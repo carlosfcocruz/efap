@@ -4,7 +4,8 @@
   "description": "Easy Fast Production System",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npm test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/carlosfcocruz/efap/issues"
   },
-  "homepage": "https://github.com/carlosfcocruz/efap#readme"
+  "homepage": "https://github.com/carlosfcocruz/efap#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
