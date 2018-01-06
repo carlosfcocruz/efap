@@ -1,5 +1,5 @@
 {
-  "name": "efap",
+  "name": "@efap/app",
   "version": "1.0.0",
   "description": "Easy Fast Production System",
   "main": "index.js",
@@ -26,7 +26,7 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "lodash": "^4.17.4",
-    "mongoose": "^4.13.7"
+    "@efap/api": "1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.34",
